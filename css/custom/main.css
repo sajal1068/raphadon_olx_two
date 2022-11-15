@@ -3,12 +3,12 @@
 
 .section-50{
     width:100%;
-    padding: 50px 0 0;
+    padding: 50px 12px 0;
 }
 .serachBox{
-    max-width: 800px;
+    /*max-width: 900px;*/
     width:100%;
-    padding: 16px 16px;
+    padding: 10px 16px;
     background:;
     border-radius: 8px;
     border-style: solid;
@@ -41,9 +41,9 @@
     border-radius: 4px;
     color: #444444;
     background-color: #FFFFFF;
-    height: 65px;
-    min-height: 65px;
-    padding: 0 44px 0 20px!important;
+    height: 51px;
+    min-height: 30px;
+    padding: 0 44px 0 75px!important;
 }
 
 .btn-red {
@@ -130,16 +130,44 @@
 
 }
 @media (min-width: 1200px) { 
-
+    body{
+        overflow-x: hidden;
+    }
     .addsBanner-section{
-        width: 150px;
-        height: auto;        
+        width: 170px;
+        height: 385px;        
         position: absolute;
-        padding: 5px;
+        /*padding: 5px;*/
     }
     .righttopb-0{
         top:110px;
         right: 0;
     }
- }
 
+    .righttopb-05{
+        top:50px;
+        right: 5px;
+    }
+ }
+ .section-top-55{   
+    padding-top: 55px;
+ }
+ .section-bottom-55{   
+    padding-bottom: 55px;
+ }
+ .ulBanner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ .ulBanner li:first-child{
+    margin-right: 10px;
+ }
+ .top-50{
+    top:100px;
+ }
