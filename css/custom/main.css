@@ -82,6 +82,7 @@
     }
     .serachBox{
         margin-bottom: 10px;
+        float: none;
     }
  }
 
@@ -99,6 +100,7 @@
     }
     .serachBox{
         margin-bottom: 10px;
+        float: none;
     }
  }
 
