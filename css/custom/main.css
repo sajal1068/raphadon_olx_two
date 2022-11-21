@@ -89,6 +89,7 @@
      }
     .ulBanner li{
         width: 100%;
+        margin-bottom: 5px;
      }
  }
 
@@ -114,7 +115,7 @@
      }
      .ulBanner li{
         width: 100%;
-        margin: 0 0 15px 0;
+        margin: 0 0 5px 0;
      }
  }
 
@@ -145,8 +146,7 @@
 
 @media (min-width: 1200px) and (max-width: 1450px) { 
     .container{
-        max-width:calc(100% - 360px)!important;
-        border: solid green 1px;
+        max-width:calc(100% - 360px)!important;        
     }
  }
 
@@ -258,7 +258,7 @@
 
     color: #191A1F;
     font-family: "Lexend Deca", Sans-serif;
-    font-size: 60px;
+    font-size: 38px;
     font-weight: bold;
     text-transform: capitalize;
     letter-spacing: -1.2px;
@@ -299,11 +299,11 @@ ul.appStore li{
 .howitWork-title {
     color: #191A1F;
     font-family: "Lexend Deca", Sans-serif;
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 700;
     letter-spacing: -1.5px;
     text-align: center;
-    margin-bottom: 2 0px;
+    margin-bottom: 30px;
 }
 .subTile-title{
     color: #191A1F;
@@ -311,6 +311,7 @@ ul.appStore li{
     font-size: 18px;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 ul.howWorks{
@@ -318,11 +319,13 @@ ul.howWorks{
     list-style: none;
     padding: 0;
     display: flex;
+    flex-direction: column;
     
 }
 ul.howWorks li{
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 li.elementor img {
