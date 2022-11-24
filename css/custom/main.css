@@ -148,6 +148,26 @@
     .container{
         max-width:calc(100% - 360px)!important;        
     }
+    h5.product-title{
+        font-size: 16px;
+    }
+    h5.product-price{
+        font-size: 16px;
+    }
+    .product-meta span {
+        font-size: 12px;
+        margin-right: 15px;
+        white-space: nowrap;
+      }
+      .product-btn a, .product-btn button {
+        margin-left: 8px;
+        padding-left: 6px;       
+      }
+      .product-card.standard .product-img img {
+        width: 150px;
+        height: auto;
+      }
+    
  }
 
 @media (max-width: 1199.98px) { 
@@ -169,20 +189,32 @@
     body{
         overflow-x: hidden;
     }
-    .addsBanner-section{
+    /* .addsBanner-section{
         width: 170px;
         height: 385px;        
         position: absolute;
-        /*padding: 5px;*/
-    }
+       
+    } */
+
+    .addsBanner-section {
+        width: 170px;        
+        position: relative;
+        /* padding: 5px; */
+        float: left;       
+        display: block;
+        /* margin-right: 10px; */
+      }
     .righttopb-0{
         top:110px;
         right: 0;
     }
 
     .righttopb-05{
-        top:50px;
-        right: 16px;
+        /* top:50px;
+        right: 16px; */
+
+        position: relative;
+        float: left;        
     }
 
     .ulBanner li{
@@ -219,6 +251,14 @@
     }
     .top-390{
         top:390px
+    }
+    .min-h-388{
+        max-height: 388px;
+        height: 100%;
+    }
+    .section-50{
+        width:100%;
+        padding: 50px 0px 0!important;
     }
  }
  .section-top-55{   
