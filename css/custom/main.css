@@ -162,6 +162,10 @@
         max-width:1140px;        
     }
 
+    .footer-part .container {
+        max-width: 1140px!important;
+      }
+
     body{
         overflow-x: hidden;
     }
@@ -194,6 +198,27 @@
     ul.appStore{
        margin-left: -15px;
         
+    }
+    .top-161{       
+        top: 161px;
+    }
+    .top-163{       
+        top: 163px;
+    }
+    .top-211{       
+        top: 211px;
+    }
+    .top-213{       
+        top: 213px;
+    }
+    .top-232{       
+        top: 232px;
+    }
+    .top-283{       
+        top: 283px;
+    }
+    .top-390{
+        top:390px
     }
  }
  .section-top-55{   
