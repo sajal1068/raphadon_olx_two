@@ -146,7 +146,8 @@
 
 @media (min-width: 1200px) and (max-width: 1450px) { 
     .container{
-        max-width:calc(100% - 360px)!important;        
+        max-width:calc(100% - 360px)!important;   
+        margin: 0;  
     }
     h5.product-title{
         font-size: 16px;
@@ -179,12 +180,27 @@
 }
 @media (min-width: 1200px) { 
     .container{
-        max-width:1140px;        
+        max-width:1140px;  
+        margin: 0;        
     }
 
+    .downloadApps .container{        
+        margin: auto!important;        
+    }
+    .custom-flex-center{
+        display: flex;
+        justify-content: center;
+    }
+    .custom-center{
+        justify-content: center;
+    }
     .footer-part .container {
         max-width: 1140px!important;
-      }
+        margin: auto!important; 
+    }
+    .suggest-part .container{
+        margin: auto!important;
+    }
 
     body{
         overflow-x: hidden;
@@ -260,6 +276,10 @@
         width:100%;
         padding: 50px 0px 0!important;
     }
+    .adsSection{
+        max-width: 1521px;
+        margin: auto;
+    }
  }
  .section-top-55{   
     padding-top: 55px;
@@ -276,6 +296,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    max-width: 1459px;
+    margin: auto;
  }
  
  .top-50{
