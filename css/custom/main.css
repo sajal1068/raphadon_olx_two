@@ -228,7 +228,6 @@
     .righttopb-05{
         /* top:50px;
         right: 16px; */
-
         position: relative;
         float: left;        
     }
@@ -262,6 +261,9 @@
     .top-232{       
         top: 232px;
     }
+    .top-255{       
+        top: 255px;
+    }
     .top-283{       
         top: 283px;
     }
@@ -272,6 +274,24 @@
         max-height: 388px;
         height: 100%;
     }
+    .h-385{
+        max-height: 385px;
+        height: 100%;
+    }
+    
+    .h-343{
+        max-height: 341px;
+        height: 100%;
+    }
+    .h-380{
+        max-height: 380px;
+        height: 100%;
+    }
+    .mb-33{
+        margin-bottom: 33px;
+    }
+    
+    
     .section-50{
         width:100%;
         padding: 50px 0px 0!important;
