@@ -293,6 +293,10 @@
         max-width: 1521px;
         margin: auto;
     }
+
+    .mb-25{
+        margin-bottom: 30px;
+    }
  }
 
 
